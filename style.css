@@ -1,0 +1,301 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+body {
+  background-color: black;
+}
+.bg {
+  background-image: url(./US-en-20240715-POP_SIGNUP_TWO_WEEKS-perspective_WEB_8b32f466-39f1-47d0-ade1-7bbf83666948_large.jpg);
+  height: 80vh;
+  position: relative;
+  background-position: center center;
+  background-size: max(1200px, 100vw);
+  background-repeat: no-repeat;
+}
+.bg .box {
+  height: 80vh;
+  opacity: 0.6;
+  background-color: black;
+  width: 100%;
+  top: 0;
+  position: absolute;
+}
+nav {
+  padding-top: 10px;
+  width: 75vw;
+  margin: auto;
+  display: flex;
+  height: 62px;
+  justify-content: space-between;
+  align-items: center;
+}
+nav img {
+  height: 40px;
+  width: 150px;
+  z-index: 1;
+}
+.but {
+  display: flex;
+  z-index: 1;
+}
+.sign {
+  height: 32px;
+  width: 76px;
+  border: none;
+  border-radius: 5px;
+  background-color: red;
+  text-align: center;
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-left: 20px;
+}
+.logo {
+  font-size: 1.5rem;
+}
+.eng {
+  color: white;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+.lang {
+  height: 35px;
+  width: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.9rem;
+  color: white;
+  border: 0.1px solid rgba(255, 255, 255, 0.39);
+  border-radius: 10px;
+}
+nav option {
+  text-align: center;
+  color: black;
+}
+
+/* main */
+.content {
+  height: 511px;
+  position: relative;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Martel Sans", sans-serif;
+  gap: 15px;
+}
+.content > :first-child {
+  font-weight: 900;
+  font-size: 48px;
+}
+.content > :nth-child(2) {
+  font-weight: 400;
+  font-size: 24px;
+}
+.content > :nth-child(3) {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+.search {
+  display: flex;
+  align-items: center;
+
+}
+.search input {
+  border-radius: 3px;
+  padding-inline:20px ;
+  height: 40px;
+  width: 300px;
+  background: transparent;
+  color: white;
+  margin-right: 10px;
+  font-size: 20px;
+}
+.search input:focus {
+  outline: 2.3px solid white;
+}
+.search button {
+  height: 60px;
+  width: 215px;
+  background-color: red;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: 700;
+  font-size: 24px;
+}
+.saprate {
+  position: relative;
+  top: 0px;
+  height: 8px;
+  background: rgba(128, 128, 128, 0.409);
+}
+.tv-dil {
+  display: flex;
+  flex-direction: column;
+  font-family: "Martel Sans", sans-serif;
+}
+.tv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tv-dil > :nth-child(1) {
+  font-size: 48px;
+  font-weight: 900;
+}
+.tv-dil > :nth-child(2) {
+  font-size: 24px;
+  font-weight: 400;
+}
+.tv-dil > :nth-child(3) {
+  font-size: 24px;
+  font-weight: 400;
+}
+.tv img {
+  position: relative;
+  z-index: 1;
+}
+.tv .first {
+  position: absolute;
+  right: 200px;
+  top: 691px;
+}
+.phone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.phone-dil {
+  width: 30vw;
+  font-family: "Martel Sans", sans-serif;
+}
+.phone-dil > :nth-child(1) {
+  font-size: 48px;
+  font-weight: 900;
+}
+.phone-dil > :nth-child(3) {
+  font-size: 24px;
+  font-weight: 400;
+}
+.download {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+  height: 95px;
+  width: 300px;
+  border: 0.5px solid rgba(128, 128, 128, 0.4);
+  background-color: black;
+  position: absolute;
+  left: 380px;
+  top: 1400px;
+  gap: 10px;
+}
+.download img {
+  height: 100px;
+  position: absolute;
+  left: 10px;
+}
+.download span {
+  font-family: system-ui, "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+  margin-left: 40px;
+  font-size: 25px;
+  font-weight: 500;
+}
+.download .Dblue {
+  font-family: system-ui, "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+  margin-left: -12px;
+  color: blue;
+  font-size: large;
+  font-weight: 200;
+}
+.second {
+  height: 250px;
+  width: 410px;
+  position: absolute;
+  top: 1600px;
+  right: 310px;
+}
+
+/* footer */
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  font-family: "Martel Sans", sans-serif;
+}
+footer h1{
+  font-size: 48px;
+  font-weight: 900;
+  font-family: "segoe UI";
+  margin-bottom: 30px;
+}
+.foot-one{
+  margin-top: 10px;
+  overflow: hidden;
+  height: 85px;
+  display: flex;
+  padding:0 50px;
+  justify-content: space-between;
+  align-items: center;
+  width: 80vw;
+  background-color: rgb(40, 37, 37);
+  font-size: 24px;
+}
+footer .last{
+  margin: 50px 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.saprate2{
+  height: 100px;
+  position: relative;
+}
+.foot-two{
+  display: flex;
+  align-items: center;
+  padding-left: 50px ;
+  border-top: 8px solid rgba(128, 128, 128, 0.409);
+  background-color: rgb(0, 0, 0);
+  height: 100px;
+}
+.foot-two a{
+  font-size: 22px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.foot-three{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.foot-three a{
+  color: rgba(255, 255, 255, 0.7);
+}
+li{
+  list-style: none;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.line{
+  display: flex;
+  color: red;
+  font-weight: 900;
+  
+}
+
